@@ -777,31 +777,39 @@
       "blueberry_seed": "2024-10-18 20:04:47 -0500",
       "tomato_seed": "2024-10-18 22:11:07 -0500",
       "grape_seed": "2024-10-18 23:24:18 -0500",
-      "raspberry_seed": "2024-10-18 22:14:02 -0500"
+      "raspberry_seed": "2024-10-18 22:14:02 -0500",
+      "celery_seed": "2024-10-22 23:17:02 -0500"
     },
     "done": false
   },
   "croptopia:gather_all": {
     "criteria": {
       "sweetpotato_seed": "2024-10-18 20:08:02 -0500",
+      "bellpepper_seed": "2024-10-22 23:14:36 -0500",
       "cantaloupe_seed": "2024-10-18 20:04:52 -0500",
       "blackbean_seed": "2024-10-18 20:04:49 -0500",
       "tea_seed": "2024-10-18 20:04:53 -0500",
       "tomato_seed": "2024-10-18 22:11:07 -0500",
+      "greenbean_seed": "2024-10-22 23:19:33 -0500",
       "pepper_seed": "2024-10-18 20:06:55 -0500",
       "chile_pepper_seed": "2024-10-18 20:07:05 -0500",
+      "cabbage_seed": "2024-10-22 22:36:41 -0500",
       "cucumber_seed": "2024-10-18 20:06:35 -0500",
       "tomatillo_seed": "2024-10-18 22:14:10 -0500",
+      "onion_seed": "2024-10-22 22:39:23 -0500",
       "kale_seed": "2024-10-18 20:07:48 -0500",
       "blueberry_seed": "2024-10-18 20:04:47 -0500",
+      "soybean_seed": "2024-10-22 23:19:44 -0500",
       "grape_seed": "2024-10-18 23:24:18 -0500",
+      "celery_seed": "2024-10-22 23:17:02 -0500",
       "broccoli_seed": "2024-10-18 20:06:18 -0500",
       "raspberry_seed": "2024-10-18 22:14:02 -0500",
       "lettuce_seed": "2024-10-18 20:07:50 -0500",
       "spinach_seed": "2024-10-18 20:04:51 -0500",
       "blackberry_seed": "2024-10-18 22:11:30 -0500",
       "corn_seed": "2024-10-18 20:12:11 -0500",
-      "oat_seed": "2024-10-18 20:06:35 -0500"
+      "oat_seed": "2024-10-18 20:06:35 -0500",
+      "mustard_seed": "2024-10-22 23:14:44 -0500"
     },
     "done": false
   },
@@ -1061,14 +1069,19 @@
   "croptopia:gather_plains": {
     "criteria": {
       "lettuce_seed": "2024-10-18 20:07:50 -0500",
+      "greenbean_seed": "2024-10-22 23:19:33 -0500",
       "sweetpotato_seed": "2024-10-18 20:08:02 -0500",
       "pepper_seed": "2024-10-18 20:06:55 -0500",
       "chile_pepper_seed": "2024-10-18 20:07:05 -0500",
+      "cabbage_seed": "2024-10-22 22:36:41 -0500",
       "cucumber_seed": "2024-10-18 20:06:35 -0500",
+      "bellpepper_seed": "2024-10-22 23:14:36 -0500",
       "corn_seed": "2024-10-18 20:12:11 -0500",
       "broccoli_seed": "2024-10-18 20:06:18 -0500",
       "oat_seed": "2024-10-18 20:06:35 -0500",
-      "kale_seed": "2024-10-18 20:07:48 -0500"
+      "mustard_seed": "2024-10-22 23:14:44 -0500",
+      "kale_seed": "2024-10-18 20:07:48 -0500",
+      "soybean_seed": "2024-10-22 23:19:44 -0500"
     },
     "done": false
   },
@@ -1688,6 +1701,8 @@
       "bread": "2024-10-18 20:46:43 -0500",
       "rotten_flesh": "2024-10-18 22:39:52 -0500",
       "beetroot": "2024-10-18 21:58:45 -0500",
+      "cooked_chicken": "2024-10-22 22:39:04 -0500",
+      "cooked_salmon": "2024-10-22 23:17:47 -0500",
       "carrot": "2024-10-18 22:21:05 -0500"
     },
     "done": false
@@ -4480,6 +4495,620 @@
   "croptopia:recipes/food/raisins_from_smoking_grape": {
     "criteria": {
       "has_grape": "2024-10-18 23:24:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2024-10-22 22:38:50 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/fajitas": {
+    "criteria": {
+      "has_frying_pan": "2024-10-22 23:05:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-10-22 23:49:29 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/pizza": {
+    "criteria": {
+      "has_dough": "2024-10-22 23:03:53 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/sweet_crepes": {
+    "criteria": {
+      "took_flour": "2024-10-22 23:03:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2024-10-22 22:13:14 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/soy_milk": {
+    "criteria": {
+      "has_soybean": "2024-10-22 23:19:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2024-10-22 23:45:12 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/roast_chicken_block": {
+    "criteria": {
+      "has_cooked_chicken": "2024-10-22 22:39:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-10-22 22:45:51 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/campfire_caramel": {
+    "criteria": {
+      "has_sugar": "2024-10-22 22:50:17 -0500"
+    },
+    "done": true
+  },
+  "croptopia:pot": {
+    "criteria": {
+      "cooking_pot": "2024-10-22 23:03:17 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg_from_campfire_cooking": {
+    "criteria": {
+      "fried_egg": "2024-10-22 23:05:35 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/tofu": {
+    "criteria": {
+      "has_soybean": "2024-10-22 23:19:44 -0500"
+    },
+    "done": true
+  },
+  "betterarcheology:loot_vase_broken": {
+    "criteria": {
+      "criteria": "2024-10-22 23:13:24 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/cabbage_seed": {
+    "criteria": {
+      "has_the_recipe": "2024-10-22 22:36:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lightning_rod": {
+    "criteria": {
+      "has_copper_ingot": "2024-10-22 23:00:08 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-10-22 22:45:51 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/dauphine_potatoes": {
+    "criteria": {
+      "has_frying_pan": "2024-10-22 23:05:00 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/cog_block": {
+    "criteria": {
+      "has_copper_ingot": "2024-10-22 23:00:08 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_steamed_green_beans": {
+    "criteria": {
+      "has_green_beans": "2024-10-22 23:19:33 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/doughnut": {
+    "criteria": {
+      "has_flour": "2024-10-22 23:03:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-10-22 22:45:51 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_beef_wellington": {
+    "criteria": {
+      "has_frying_pan": "2024-10-22 23:05:00 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/celery_seed": {
+    "criteria": {
+      "has_celery": "2024-10-22 23:16:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2024-10-22 22:45:51 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "wheat": "2024-10-22 22:14:03 -0500",
+      "carrot": "2024-10-22 22:16:21 -0500"
+    },
+    "done": false
+  },
+  "supplementaries:recipes/wrench": {
+    "criteria": {
+      "has_copper_ingot": "2024-10-22 23:00:08 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/croque_madame": {
+    "criteria": {
+      "has_frying_pan": "2024-10-22 23:05:00 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/onion_seed": {
+    "criteria": {
+      "has_the_recipe": "2024-10-22 22:39:23 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/caramel_from_sugar": {
+    "criteria": {
+      "has_sugar": "2024-10-22 22:50:17 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2024-10-22 22:58:13 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_block": {
+    "criteria": {
+      "has_copper_ingot": "2024-10-22 23:00:08 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2024-10-22 23:45:12 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/croque_monsieur": {
+    "criteria": {
+      "has_frying_pan": "2024-10-22 23:05:00 -0500"
+    },
+    "done": true
+  },
+  "croptopia:gather_food": {
+    "criteria": {
+      "hamburger": "2024-10-22 23:37:07 -0500",
+      "apple_pie": "2024-10-22 23:05:47 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2024-10-22 22:45:51 -0500"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/granite_pillar_trim": {
+    "criteria": {
+      "has_granite_pillar_trim": "2024-10-22 22:45:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/brush": {
+    "criteria": {
+      "has_copper_ingot": "2024-10-22 23:00:08 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/caramel_from_smoking_sugar": {
+    "criteria": {
+      "has_sugar": "2024-10-22 22:50:17 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2024-10-22 23:45:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-10-22 22:45:51 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/quiche": {
+    "criteria": {
+      "has_frying_pan": "2024-10-22 23:05:00 -0500"
+    },
+    "done": true
+  },
+  "croptopia:gather_jungle": {
+    "criteria": {
+      "onion_seed": "2024-10-22 22:39:23 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2024-10-22 22:45:51 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/soy_sauce": {
+    "criteria": {
+      "has_soybean": "2024-10-22 23:19:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2024-10-22 22:38:50 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2024-10-22 22:58:13 -0500"
+    },
+    "done": false
+  },
+  "handcrafted:recipes/misc/granite_corner_trim": {
+    "criteria": {
+      "has_granite_corner_trim": "2024-10-22 22:45:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-10-22 22:45:51 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/scrambled_eggs": {
+    "criteria": {
+      "has_frying_pan": "2024-10-22 23:05:00 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/cashew_chicken": {
+    "criteria": {
+      "has_cooked_chicken": "2024-10-22 22:39:02 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candy": {
+    "criteria": {
+      "has_sugar": "2024-10-22 22:50:17 -0500"
+    },
+    "done": true
+  },
+  "croptopia:eatcrafted": {
+    "criteria": {
+      "eat_crafted": "2024-10-22 23:54:54 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/chicken_and_dumplings": {
+    "criteria": {
+      "has_chicken": "2024-10-22 22:38:50 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/mustard_seed": {
+    "criteria": {
+      "has_mustard": "2024-10-22 23:14:44 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/nougat": {
+    "criteria": {
+      "has_sugar": "2024-10-22 22:50:17 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/steamed_rice": {
+    "criteria": {
+      "has_cooking_pot": "2024-10-22 23:03:17 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/grilled_cheese": {
+    "criteria": {
+      "has_frying_pan": "2024-10-22 23:05:00 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/fried_chicken": {
+    "criteria": {
+      "has_chicken": "2024-10-22 22:38:50 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/cinnamon_roll": {
+    "criteria": {
+      "has_frying_pan": "2024-10-22 23:05:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2024-10-22 22:45:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2024-10-22 22:47:26 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_ajvar": {
+    "criteria": {
+      "has_bellpepper": "2024-10-22 23:14:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2024-10-22 22:13:14 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg_from_smoking": {
+    "criteria": {
+      "fried_egg": "2024-10-22 23:05:35 -0500"
+    },
+    "done": true
+  },
+  "croptopia:frying_pan": {
+    "criteria": {
+      "frying_pan": "2024-10-22 23:05:00 -0500"
+    },
+    "done": true
+  },
+  "artifacts:chest_slayer": {
+    "criteria": {
+      "kill_mimic": "2024-10-22 22:50:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-10-22 23:49:29 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_fish_and_chips": {
+    "criteria": {
+      "has_flour": "2024-10-22 23:03:39 -0500"
+    },
+    "done": true
+  },
+  "croptopia:eatbig": {
+    "criteria": {
+      "eat_big": "2024-10-22 23:54:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2024-10-22 22:38:50 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/dough": {
+    "criteria": {
+      "has_cooking_pot": "2024-10-22 23:03:17 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/sunny_side_eggs": {
+    "criteria": {
+      "has_frying_pan": "2024-10-22 23:05:00 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/hashed_brown": {
+    "criteria": {
+      "has_frying_pan": "2024-10-22 23:05:00 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/nutty_cookie": {
+    "criteria": {
+      "has_the_recipe": "2024-10-22 22:50:17 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/peach_sapling": {
+    "criteria": {
+      "has_peach": "2024-10-22 23:14:16 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/peach_jam": {
+    "criteria": {
+      "has_peach": "2024-10-22 23:14:16 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/chicken_and_rice": {
+    "criteria": {
+      "has_chicken": "2024-10-22 22:38:50 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/baked_crepes": {
+    "criteria": {
+      "has_frying_pan": "2024-10-22 23:05:00 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/bellpepper_seed": {
+    "criteria": {
+      "has_bellpepper": "2024-10-22 23:14:36 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/egg_roll": {
+    "criteria": {
+      "has_the_recipe": "2024-10-22 23:03:17 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/noodles": {
+    "criteria": {
+      "has_cooking_pot": "2024-10-22 23:03:17 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/altimeter": {
+    "criteria": {
+      "has_copper_ingot": "2024-10-22 23:00:08 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/the_big_breakfast": {
+    "criteria": {
+      "has_frying_pan": "2024-10-22 23:05:00 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/meringue": {
+    "criteria": {
+      "has_egg": "2024-10-22 23:05:35 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sugar_cube": {
+    "criteria": {
+      "has_sugar": "2024-10-22 22:50:17 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_buttered_green_beans": {
+    "criteria": {
+      "has_greenbeans": "2024-10-22 23:19:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2024-10-22 22:45:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_netherite_hoe": {
+    "criteria": {
+      "netherite_hoe": "2024-10-22 23:04:36 -0500"
+    },
+    "done": true
+  },
+  "croptopia:root": {
+    "criteria": {
+      "root": "2024-10-22 22:32:02 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/soybean_seed": {
+    "criteria": {
+      "has_soybean": "2024-10-22 23:19:44 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/cheese_pizza": {
+    "criteria": {
+      "has_dough": "2024-10-22 23:03:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2024-10-22 22:14:03 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/chicken_sandwich": {
+    "criteria": {
+      "has_cooked_chicken": "2024-10-22 22:39:02 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/chicken_and_noodles": {
+    "criteria": {
+      "has_chicken": "2024-10-22 22:38:50 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sconce_soul": {
+    "criteria": {
+      "has_iron_nugget": "2024-10-22 22:47:26 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/tortilla": {
+    "criteria": {
+      "took_flour": "2024-10-22 23:03:39 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/lapis_bricks": {
+    "criteria": {
+      "has_lapis_lazuli": "2024-10-22 23:49:29 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/pear_sapling": {
+    "criteria": {
+      "has_pear": "2024-10-22 23:12:11 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/greenbean_seed": {
+    "criteria": {
+      "has_greenbean": "2024-10-22 23:19:33 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg": {
+    "criteria": {
+      "fried_egg": "2024-10-22 23:05:35 -0500"
     },
     "done": true
   },
