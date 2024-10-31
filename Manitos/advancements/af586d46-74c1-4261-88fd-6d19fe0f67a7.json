@@ -25,7 +25,10 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:old_growth_pine_taiga": "2024-10-28 22:16:21 -0500",
+      "minecraft:taiga": "2024-10-28 22:21:57 -0500",
       "minecraft:deep_ocean": "2024-10-18 20:32:25 -0500",
+      "minecraft:eroded_badlands": "2024-10-28 22:38:39 -0500",
       "minecraft:frozen_river": "2024-10-25 18:53:05 -0500",
       "minecraft:cherry_grove": "2024-10-18 21:11:08 -0500",
       "minecraft:birch_forest": "2024-10-18 22:06:22 -0500",
@@ -33,18 +36,24 @@
       "minecraft:beach": "2024-10-18 20:32:06 -0500",
       "minecraft:dark_forest": "2024-10-18 21:58:14 -0500",
       "minecraft:river": "2024-10-18 20:05:53 -0500",
+      "minecraft:lukewarm_ocean": "2024-10-28 21:45:04 -0500",
       "minecraft:stony_shore": "2024-10-18 20:34:56 -0500",
       "minecraft:dripstone_caves": "2024-10-18 22:56:45 -0500",
       "minecraft:snowy_taiga": "2024-10-25 18:11:08 -0500",
       "minecraft:swamp": "2024-10-18 21:49:54 -0500",
+      "minecraft:grove": "2024-10-28 19:49:46 -0500",
       "minecraft:forest": "2024-10-18 20:01:15 -0500",
+      "minecraft:lush_caves": "2024-10-28 21:47:20 -0500",
       "minecraft:frozen_ocean": "2024-10-25 18:59:21 -0500",
+      "minecraft:desert": "2024-10-28 20:01:10 -0500",
       "minecraft:ocean": "2024-10-18 20:32:09 -0500",
       "minecraft:snowy_beach": "2024-10-25 18:11:55 -0500",
       "minecraft:windswept_savanna": "2024-10-18 20:16:14 -0500",
+      "minecraft:deep_lukewarm_ocean": "2024-10-28 21:46:01 -0500",
       "minecraft:old_growth_birch_forest": "2024-10-18 22:07:28 -0500",
       "minecraft:deep_dark": "2024-10-23 12:54:46 -0500",
       "minecraft:meadow": "2024-10-18 21:09:29 -0500",
+      "minecraft:savanna": "2024-10-28 22:37:05 -0500",
       "minecraft:plains": "2024-10-18 20:06:08 -0500"
     },
     "done": false
@@ -801,6 +810,7 @@
       "cabbage_seed": "2024-10-22 22:36:41 -0500",
       "cucumber_seed": "2024-10-18 20:06:35 -0500",
       "tomatillo_seed": "2024-10-18 22:14:10 -0500",
+      "olive_seed": "2024-10-28 22:38:27 -0500",
       "onion_seed": "2024-10-22 22:39:23 -0500",
       "kale_seed": "2024-10-18 20:07:48 -0500",
       "blueberry_seed": "2024-10-18 20:04:47 -0500",
@@ -1963,6 +1973,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-10-23 12:11:08 -0500",
+      "minecraft:blaze": "2024-10-28 22:58:34 -0500",
       "minecraft:skeleton": "2024-10-18 22:35:40 -0500",
       "minecraft:hoglin": "2024-10-24 23:24:20 -0500",
       "minecraft:vindicator": "2024-10-23 12:36:37 -0500",
@@ -1970,6 +1981,7 @@
       "minecraft:spider": "2024-10-18 21:14:25 -0500",
       "minecraft:piglin_brute": "2024-10-24 23:15:15 -0500",
       "minecraft:creeper": "2024-10-18 21:15:25 -0500",
+      "minecraft:wither": "2024-10-28 19:41:34 -0500",
       "minecraft:phantom": "2024-10-25 19:04:12 -0500",
       "minecraft:zombified_piglin": "2024-10-24 23:45:39 -0500",
       "minecraft:wither_skeleton": "2024-10-24 22:32:12 -0500",
@@ -1977,6 +1989,7 @@
       "minecraft:cave_spider": "2024-10-18 20:51:12 -0500",
       "minecraft:piglin": "2024-10-24 23:16:12 -0500",
       "minecraft:stray": "2024-10-18 22:39:17 -0500",
+      "minecraft:enderman": "2024-10-28 22:18:43 -0500",
       "minecraft:endermite": "2024-10-24 23:24:26 -0500",
       "minecraft:zombie": "2024-10-18 20:46:16 -0500",
       "minecraft:drowned": "2024-10-18 20:33:52 -0500"
@@ -4530,6 +4543,8 @@
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
       "cabbage": "2024-10-23 11:29:26 -0500",
+      "sugar_cane": "2024-10-28 21:55:34 -0500",
+      "potato": "2024-10-28 20:16:44 -0500",
       "wheat": "2024-10-22 22:14:03 -0500",
       "carrot": "2024-10-22 22:16:21 -0500"
     },
@@ -4994,6 +5009,7 @@
       "raspberry_jam": "2024-10-25 00:14:32 -0500",
       "cheeseburger": "2024-10-25 00:36:23 -0500",
       "toast": "2024-10-25 00:14:55 -0500",
+      "calamari": "2024-10-28 21:46:30 -0500",
       "tofuburger": "2024-10-25 00:34:12 -0500",
       "tofu": "2024-10-25 00:33:00 -0500",
       "blackberry_jam": "2024-10-25 00:14:00 -0500",
@@ -6382,7 +6398,8 @@
   },
   "deeperdarker:main/kill_all_sculk_mobs": {
     "criteria": {
-      "phantom": "2024-10-25 19:04:12 -0500"
+      "phantom": "2024-10-25 19:04:12 -0500",
+      "warden": "2024-10-28 19:52:47 -0500"
     },
     "done": false
   },
@@ -6410,12 +6427,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/grindstone": {
-    "criteria": {
-      "has_stone_slab": "2024-10-25 20:14:46 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/firework_rocket_simple": {
     "criteria": {
       "has_gunpowder": "2024-10-25 20:08:31 -0500"
@@ -6428,15 +6439,963 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2024-10-25 20:08:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2024-10-25 20:14:46 -0500"
+    },
+    "done": true
+  },
   "fwaystones:recipes/abyss_watcher": {
     "criteria": {
       "has_ender_pearl": "2024-10-25 20:22:00 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/tnt": {
+  "deeperdarker:recipes/combat/sonorous_staff": {
     "criteria": {
-      "has_gunpowder": "2024-10-25 20:08:31 -0500"
+      "has_heart_of_the_deep": "2024-10-28 18:46:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_chestplate_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-10-28 18:47:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_helmet_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-10-28 18:47:02 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/netherite_knife_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-10-28 18:47:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-10-28 18:47:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_axe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-10-28 18:47:02 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/safe": {
+    "criteria": {
+      "has_netherite_ingot": "2024-10-28 18:47:02 -0500"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/tools/netherite_brush_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-10-28 18:47:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_sword_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-10-28 18:47:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-10-28 18:47:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-10-28 18:47:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_netherite_ingot": "2024-10-28 18:47:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2024-10-28 18:47:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_shovel_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-10-28 18:47:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_pickaxe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-10-28 18:47:02 -0500"
+    },
+    "done": true
+  },
+  "simplyswords:runic_weapon": {
+    "criteria": {
+      "requirement": "2024-10-28 18:53:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-10-28 19:00:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "criteria": {
+      "lightning_rod_with_villager_no_fire": "2024-10-28 19:02:01 -0500"
+    },
+    "done": true
+  },
+  "endrem:main/undead_eye_recipe": {
+    "criteria": {
+      "soul": "2024-10-28 19:02:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2024-10-28 19:31:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2024-10-28 19:31:48 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2024-10-28 19:38:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2024-10-28 19:40:16 -0500"
+    },
+    "done": true
+  },
+  "endrem:main/wither_eye": {
+    "criteria": {
+      "wither_eye": "2024-10-28 19:41:34 -0500"
+    },
+    "done": true
+  },
+  "endrem:main/root": {
+    "criteria": {
+      "wither_eye": "2024-10-28 19:41:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2024-10-28 19:42:03 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_netherwart_stew": {
+    "criteria": {
+      "has_nether_wart": "2024-10-28 19:42:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2024-10-28 19:42:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2024-10-28 19:42:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2024-10-28 19:42:03 -0500"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:wither_treasure_bag": {
+    "criteria": {
+      "bag_opened": "2024-10-28 19:42:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2024-10-28 19:42:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2024-10-28 19:42:03 -0500"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/misc/reinforced_echo_shard": {
+    "criteria": {
+      "has_echo_shard": "2024-10-28 19:50:32 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2024-10-28 19:50:32 -0500"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:warden_treasure_bag": {
+    "criteria": {
+      "bag_opened": "2024-10-28 19:50:32 -0500"
+    },
+    "done": true
+  },
+  "deeperdarker:main/kill_warden": {
+    "criteria": {
+      "warden": "2024-10-28 19:52:47 -0500"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/combat/warden_leggings_smithing": {
+    "criteria": {
+      "has_reinforced_echo_shard": "2024-10-28 20:05:08 -0500"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/combat/warden_sword_smithing": {
+    "criteria": {
+      "has_reinforced_echo_shard": "2024-10-28 20:05:08 -0500"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/combat/warden_chestplate_smithing": {
+    "criteria": {
+      "has_reinforced_echo_shard": "2024-10-28 20:05:08 -0500"
+    },
+    "done": true
+  },
+  "deeperdarker:main/obtain_reinforced_echo_shard": {
+    "criteria": {
+      "reinforced_echo_shard": "2024-10-28 20:05:08 -0500"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/combat/warden_helmet_smithing": {
+    "criteria": {
+      "has_reinforced_echo_shard": "2024-10-28 20:05:08 -0500"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/tools/warden_pickaxe_smithing": {
+    "criteria": {
+      "has_reinforced_echo_shard": "2024-10-28 20:05:08 -0500"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/tools/warden_axe_smithing": {
+    "criteria": {
+      "has_reinforced_echo_shard": "2024-10-28 20:05:08 -0500"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/tools/warden_shovel_smithing": {
+    "criteria": {
+      "has_reinforced_echo_shard": "2024-10-28 20:05:08 -0500"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/tools/warden_hoe_smithing": {
+    "criteria": {
+      "has_reinforced_echo_shard": "2024-10-28 20:05:08 -0500"
+    },
+    "done": true
+  },
+  "deeperdarker:recipes/combat/warden_boots_smithing": {
+    "criteria": {
+      "has_reinforced_echo_shard": "2024-10-28 20:05:08 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/netherite_trapdoor": {
+    "criteria": {
+      "has_netherite_scrap": "2024-10-28 20:06:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2024-10-28 20:06:22 -0500"
+    },
+    "done": true
+  },
+  "bosses_of_mass_destruction:recipes/brimstone_nectar": {
+    "criteria": {
+      "has_netherite_scrap": "2024-10-28 20:06:22 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/netherite_door": {
+    "criteria": {
+      "has_netherite_scrap": "2024-10-28 20:06:22 -0500"
+    },
+    "done": true
+  },
+  "deeperdarker:main/warden_armor": {
+    "criteria": {
+      "warden_armor": "2024-10-28 20:10:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-10-28 21:38:29 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_rice": {
+    "criteria": {
+      "has_any_ingredient": "2024-10-28 22:08:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-10-28 23:04:23 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/fried_calamari": {
+    "criteria": {
+      "has_calamari": "2024-10-28 21:46:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_gold_block": {
+    "criteria": {
+      "has_gold_block": "2024-10-28 21:40:21 -0500"
+    },
+    "done": true
+  },
+  "fwaystones:recipes/end_stone_waystone": {
+    "criteria": {
+      "has_abyss_watcher": "2024-10-28 21:37:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2024-10-28 21:36:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-10-28 23:06:27 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_stew": {
+    "criteria": {
+      "has_any_ingredient": "2024-10-28 22:08:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2024-10-28 21:36:50 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-10-28 22:52:58 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone": {
+    "criteria": {
+      "has_sandstone_slab": "2024-10-28 22:36:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone": {
+    "criteria": {
+      "has_sandstone": "2024-10-28 22:52:58 -0500"
+    },
+    "done": true
+  },
+  "fwaystones:recipes/desert_waystone": {
+    "criteria": {
+      "has_abyss_watcher": "2024-10-28 21:37:52 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/olive_seed": {
+    "criteria": {
+      "has_olive": "2024-10-28 22:38:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-10-28 21:38:29 -0500"
+    },
+    "done": true
+  },
+  "endrem:main/magical_eye": {
+    "criteria": {
+      "magical_eye": "2024-10-28 21:51:56 -0500"
+    },
+    "done": true
+  },
+  "betterarcheology:all_fossils_found": {
+    "criteria": {
+      "betterarcheology:villager_fossil_head": "2024-10-28 21:40:21 -0500"
+    },
+    "done": false
+  },
+  "croptopia:recipes/misc/almond_sapling": {
+    "criteria": {
+      "has_almond": "2024-10-28 22:09:19 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/horchata": {
+    "criteria": {
+      "has_almond": "2024-10-28 22:09:19 -0500"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/sandstone_corner_trim": {
+    "criteria": {
+      "has_sandstone_corner_trim": "2024-10-28 22:52:58 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/end_stone_lamp": {
+    "criteria": {
+      "has_end_stone": "2024-10-28 23:06:27 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/blackstone_tile": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-10-28 21:38:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2024-10-28 21:36:30 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/squid_ink_pasta": {
+    "criteria": {
+      "has_any_ingredient": "2024-10-28 21:46:31 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/cooked_calamari_from_calamari": {
+    "criteria": {
+      "has_calamari": "2024-10-28 21:46:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-10-28 21:38:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2024-10-28 21:46:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2024-10-28 22:56:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2024-10-28 22:52:58 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/roasted_nuts_from_campfire": {
+    "criteria": {
+      "has_nut": "2024-10-28 22:09:19 -0500"
+    },
+    "done": true
+  },
+  "fwaystones:recipes/blackstone_waystone": {
+    "criteria": {
+      "has_abyss_watcher": "2024-10-28 21:37:52 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flute": {
+    "criteria": {
+      "has_bamboo": "2024-10-28 21:40:20 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/roasted_nuts": {
+    "criteria": {
+      "has_nut": "2024-10-28 22:09:19 -0500"
+    },
+    "done": true
+  },
+  "endrem:main/nether_eye": {
+    "criteria": {
+      "nether_eye": "2024-10-28 21:51:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2024-10-28 21:46:31 -0500"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/golden_medium_pot": {
+    "criteria": {
+      "has_golden_medium_pot": "2024-10-28 21:40:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-10-28 22:52:58 -0500"
+    },
+    "done": true
+  },
+  "simplyswords:hiveheart": {
+    "criteria": {
+      "requirement": "2024-10-28 23:05:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-10-28 22:52:58 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2024-10-28 21:40:41 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-10-28 22:52:58 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-10-28 22:52:58 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-10-28 23:06:27 -0500"
+    },
+    "done": true
+  },
+  "fwaystones:recipes/waystone": {
+    "criteria": {
+      "has_abyss_watcher": "2024-10-28 21:37:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-10-28 21:38:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-10-28 23:04:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2024-10-28 21:36:30 -0500"
+    },
+    "done": true
+  },
+  "fwaystones:recipes/stone_brick_waystone": {
+    "criteria": {
+      "has_abyss_watcher": "2024-10-28 21:37:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold_betterstrongholds": "2024-10-28 21:47:53 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-10-28 21:38:29 -0500"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/bamboo": {
+    "criteria": {
+      "has_wood": "2024-10-28 21:40:20 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/trail_mix": {
+    "criteria": {
+      "has_nuts": "2024-10-28 22:09:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2024-10-28 21:36:50 -0500"
+    },
+    "done": true
+  },
+  "naturalist:recipes/naturalist/bug_net": {
+    "criteria": {
+      "has_bamboo": "2024-10-28 21:40:20 -0500"
+    },
+    "done": true
+  },
+  "endrem:main/witch_eye": {
+    "criteria": {
+      "witch_eye": "2024-10-28 21:51:56 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/cooked_calamari_from_smoking_calamari": {
+    "criteria": {
+      "has_calamari": "2024-10-28 21:46:30 -0500"
+    },
+    "done": true
+  },
+  "endrem:main/lost_eye": {
+    "criteria": {
+      "lost_eye": "2024-10-28 21:51:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-10-28 22:51:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2024-10-28 21:40:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-10-28 23:04:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2024-10-28 22:52:58 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-10-28 21:38:29 -0500"
+    },
+    "done": true
+  },
+  "betterarcheology:fossil_found": {
+    "criteria": {
+      "betterarcheology:fossil_found": "2024-10-28 21:40:21 -0500"
+    },
+    "done": true
+  },
+  "betterarcheology:recipes/decorations/villager_fossil": {
+    "criteria": {
+      "has_villager_fossil_head": "2024-10-28 21:40:21 -0500"
+    },
+    "done": true
+  },
+  "endrem:main/black_eye": {
+    "criteria": {
+      "black_eye": "2024-10-28 22:48:50 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/almond_brittle": {
+    "criteria": {
+      "has_almond": "2024-10-28 22:09:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/dune_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-10-28 21:40:33 -0500"
+    },
+    "done": true
+  },
+  "fwaystones:recipes/waystone_scroll": {
+    "criteria": {
+      "has_abyss_watcher": "2024-10-28 21:37:52 -0500"
+    },
+    "done": true
+  },
+  "endrem:main/guardian_eye": {
+    "criteria": {
+      "guardian_eye": "2024-10-28 21:51:56 -0500"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:ender_dragon_treasure_bag": {
+    "criteria": {
+      "bag_opened": "2024-10-28 23:05:59 -0500"
+    },
+    "done": true
+  },
+  "fwaystones:recipes/nether_brick_waystone": {
+    "criteria": {
+      "has_abyss_watcher": "2024-10-28 21:37:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2024-10-28 22:52:58 -0500"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/golden_thick_pot": {
+    "criteria": {
+      "has_golden_thick_pot": "2024-10-28 21:40:21 -0500"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/sandstone_pillar_trim": {
+    "criteria": {
+      "has_sandstone_pillar_trim": "2024-10-28 22:52:58 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2024-10-28 23:06:27 -0500"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/golden_thin_pot": {
+    "criteria": {
+      "has_golden_thin_pot": "2024-10-28 21:40:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2024-10-28 22:53:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-10-28 23:04:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-10-28 22:52:58 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-10-28 21:40:41 -0500"
+    },
+    "done": true
+  },
+  "fwaystones:recipes/deepslate_waystone": {
+    "criteria": {
+      "has_abyss_watcher": "2024-10-28 21:37:52 -0500"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:enderman_teleport_attack": {
+    "criteria": {
+      "teleported_player": "2024-10-28 23:05:49 -0500"
+    },
+    "done": true
+  },
+  "fwaystones:recipes/local_void": {
+    "criteria": {
+      "has_abyss_watcher": "2024-10-28 21:37:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/dune_armor_trim_smithing_template": {
+    "criteria": {
+      "has_dune_armor_trim_smithing_template": "2024-10-28 21:40:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-10-28 23:04:23 -0500"
+    },
+    "done": true
+  },
+  "fwaystones:recipes/red_desert_waystone": {
+    "criteria": {
+      "has_abyss_watcher": "2024-10-28 21:37:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-10-28 23:04:23 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/surpreme_pizza": {
+    "criteria": {
+      "has_olive": "2024-10-28 22:38:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-10-28 21:38:29 -0500"
+    },
+    "done": true
+  },
+  "croptopia:gather_savanna": {
+    "criteria": {
+      "olive_seed": "2024-10-28 22:38:27 -0500"
+    },
+    "done": false
+  },
+  "croptopia:recipes/roasted_smoking": {
+    "criteria": {
+      "has_nut": "2024-10-28 22:09:19 -0500"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/golden_wide_pot": {
+    "criteria": {
+      "has_golden_wide_pot": "2024-10-28 21:40:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-10-28 22:51:02 -0500"
+    },
+    "done": true
+  },
+  "endrem:main/undead_eye": {
+    "criteria": {
+      "undead_eye": "2024-10-28 21:51:56 -0500"
+    },
+    "done": true
+  },
+  "endrem:main/cursed_eye": {
+    "criteria": {
+      "cursed_eye": "2024-10-28 21:51:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-10-28 21:40:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sandstone_wall": {
+    "criteria": {
+      "has_sandstone": "2024-10-28 22:52:58 -0500"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:game_stage_master": {
+    "criteria": {
+      "is_triggered": "2024-10-28 23:04:32 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-10-28 21:40:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-10-28 23:06:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2024-10-28 23:06:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-10-28 21:40:20 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/stonecutting/blackstone_tile": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2024-10-28 21:38:29 -0500"
+    },
+    "done": true
+  },
+  "endrem:main/eyes_recipe": {
+    "criteria": {
+      "eyes": "2024-10-28 21:36:50 -0500"
     },
     "done": true
   },
