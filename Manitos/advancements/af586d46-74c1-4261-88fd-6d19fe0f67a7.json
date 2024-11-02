@@ -7401,7 +7401,43 @@
     },
     "done": true
   },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2024-10-30 20:50:51 -0500"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:enderium_shard": {
+    "criteria": {
+      "picked_up_shard": "2024-10-30 20:54:54 -0500"
+    },
+    "done": true
+  },
+  "majruszsdifficulty:recipes/misc/enderium_ingot": {
+    "criteria": {
+      "has_enderium_shard": "2024-10-30 20:54:54 -0500"
+    },
+    "done": true
+  },
   "decorative_blocks:recipes/building_blocks/crimson_palisade": {
+    "criteria": {
+      "has_log": "2024-10-30 21:23:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2024-10-30 21:23:09 -0500"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/crimson": {
+    "criteria": {
+      "has_wood": "2024-10-30 21:23:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
     "criteria": {
       "has_log": "2024-10-30 21:23:09 -0500"
     },
@@ -7416,24 +7452,6 @@
   "decorative_blocks:recipes/building_blocks/crimson_support": {
     "criteria": {
       "has_plank": "2024-10-30 21:23:13 -0500"
-    },
-    "done": true
-  },
-  "ecologics:recipes/ecologics/crab_meat_from_smoking": {
-    "criteria": {
-      "crab_meat": "2024-10-30 23:07:25 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/crimson_planks": {
-    "criteria": {
-      "has_logs": "2024-10-30 21:23:09 -0500"
-    },
-    "done": true
-  },
-  "majruszsdifficulty:enderium_shard": {
-    "criteria": {
-      "picked_up_shard": "2024-10-30 20:54:54 -0500"
     },
     "done": true
   },
@@ -7461,51 +7479,15 @@
     },
     "done": true
   },
-  "ecologics:recipes/ecologics/crab_meat_from_campfire_cooking": {
-    "criteria": {
-      "crab_meat": "2024-10-30 23:07:25 -0500"
-    },
-    "done": true
-  },
   "supplementaries:recipes/decorations/sign_post_crimson": {
     "criteria": {
       "has_planks": "2024-10-30 21:23:13 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/diorite": {
-    "criteria": {
-      "has_quartz": "2024-10-30 21:24:46 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/granite": {
-    "criteria": {
-      "has_quartz": "2024-10-30 21:24:46 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/crimson_door": {
     "criteria": {
       "has_planks": "2024-10-30 21:23:13 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_block": {
-    "criteria": {
-      "has_quartz": "2024-10-30 21:24:46 -0500"
-    },
-    "done": true
-  },
-  "minecraft:nether/netherite_armor": {
-    "criteria": {
-      "netherite_armor": "2024-10-30 22:29:19 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/comparator": {
-    "criteria": {
-      "has_quartz": "2024-10-30 21:24:46 -0500"
     },
     "done": true
   },
@@ -7521,21 +7503,9 @@
     },
     "done": true
   },
-  "farmersdelight:main/get_ham": {
-    "criteria": {
-      "ham": "2024-10-30 22:54:04 -0500"
-    },
-    "done": true
-  },
   "supplementaries:recipes/sign_post_crimson": {
     "criteria": {
       "has_the_recipe": "2024-10-30 21:23:13 -0500"
-    },
-    "done": true
-  },
-  "minecraft:end/enter_end_gateway": {
-    "criteria": {
-      "entered_end_gateway": "2024-10-30 20:50:51 -0500"
     },
     "done": true
   },
@@ -7569,27 +7539,9 @@
     },
     "done": true
   },
-  "ecologics:recipes/ecologics/crab_meat": {
-    "criteria": {
-      "crab_meat": "2024-10-30 23:07:25 -0500"
-    },
-    "done": true
-  },
-  "majruszsdifficulty:recipes/misc/enderium_ingot": {
-    "criteria": {
-      "has_enderium_shard": "2024-10-30 20:54:54 -0500"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/crimson_dining_bench": {
     "criteria": {
       "has_crimson_dining_bench": "2024-10-30 21:23:13 -0500"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/smoked_ham": {
-    "criteria": {
-      "has_ham": "2024-10-30 22:54:04 -0500"
     },
     "done": true
   },
@@ -7617,12 +7569,6 @@
     },
     "done": true
   },
-  "mcwdoors:recipes/crimson": {
-    "criteria": {
-      "has_wood": "2024-10-30 21:23:09 -0500"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/crimson_table": {
     "criteria": {
       "has_crimson_table": "2024-10-30 21:23:13 -0500"
@@ -7641,27 +7587,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/daylight_detector": {
-    "criteria": {
-      "has_quartz": "2024-10-30 21:24:46 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/observer": {
-    "criteria": {
-      "has_quartz": "2024-10-30 21:24:46 -0500"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/crimson_chair": {
     "criteria": {
       "has_crimson_chair": "2024-10-30 21:23:13 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/crimson_hyphae": {
-    "criteria": {
-      "has_log": "2024-10-30 21:23:09 -0500"
     },
     "done": true
   },
@@ -7680,6 +7608,96 @@
   "handcrafted:recipes/misc/crimson_nightstand": {
     "criteria": {
       "has_crimson_nightstand": "2024-10-30 21:23:13 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2024-10-30 21:24:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2024-10-30 21:24:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2024-10-30 21:24:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2024-10-30 21:24:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2024-10-30 21:24:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2024-10-30 21:24:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2024-10-30 22:29:19 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_ham": {
+    "criteria": {
+      "ham": "2024-10-30 22:54:04 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/smoked_ham": {
+    "criteria": {
+      "has_ham": "2024-10-30 22:54:04 -0500"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/crab_meat_from_smoking": {
+    "criteria": {
+      "crab_meat": "2024-10-30 23:07:25 -0500"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/crab_meat_from_campfire_cooking": {
+    "criteria": {
+      "crab_meat": "2024-10-30 23:07:25 -0500"
+    },
+    "done": true
+  },
+  "ecologics:recipes/ecologics/crab_meat": {
+    "criteria": {
+      "crab_meat": "2024-10-30 23:07:25 -0500"
+    },
+    "done": true
+  },
+  "naturalist:recipes/naturalist/spectral_arrow_from_glow_goop": {
+    "criteria": {
+      "has_glow_goop": "2024-11-02 14:39:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald_block": "2024-11-02 14:45:32 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/crank": {
+    "criteria": {
+      "has_cobblestone_slab": "2024-11-02 16:23:13 -0500"
     },
     "done": true
   },
