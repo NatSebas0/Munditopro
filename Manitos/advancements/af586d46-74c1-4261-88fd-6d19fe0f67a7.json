@@ -25,6 +25,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2024-11-08 22:17:44 -0500",
       "minecraft:old_growth_pine_taiga": "2024-10-28 22:16:21 -0500",
       "minecraft:taiga": "2024-10-28 22:21:57 -0500",
       "minecraft:deep_ocean": "2024-10-18 20:32:25 -0500",
@@ -33,8 +34,10 @@
       "minecraft:cherry_grove": "2024-10-18 21:11:08 -0500",
       "minecraft:birch_forest": "2024-10-18 22:06:22 -0500",
       "minecraft:windswept_hills": "2024-10-18 21:50:40 -0500",
+      "minecraft:badlands": "2024-11-08 22:58:07 -0500",
       "minecraft:beach": "2024-10-18 20:32:06 -0500",
       "minecraft:dark_forest": "2024-10-18 21:58:14 -0500",
+      "minecraft:sparse_jungle": "2024-11-08 23:05:05 -0500",
       "minecraft:river": "2024-10-18 20:05:53 -0500",
       "minecraft:lukewarm_ocean": "2024-10-28 21:45:04 -0500",
       "minecraft:stony_shore": "2024-10-18 20:34:56 -0500",
@@ -814,15 +817,19 @@
       "onion_seed": "2024-10-22 22:39:23 -0500",
       "kale_seed": "2024-10-18 20:07:48 -0500",
       "blueberry_seed": "2024-10-18 20:04:47 -0500",
+      "ginger_seed": "2024-11-08 22:56:19 -0500",
       "soybean_seed": "2024-10-22 23:19:44 -0500",
       "grape_seed": "2024-10-18 23:24:18 -0500",
       "celery_seed": "2024-10-22 23:17:02 -0500",
+      "leek_seed": "2024-11-08 22:54:50 -0500",
       "broccoli_seed": "2024-10-18 20:06:18 -0500",
       "raspberry_seed": "2024-10-18 22:14:02 -0500",
       "lettuce_seed": "2024-10-18 20:07:50 -0500",
+      "squash_seed": "2024-11-08 22:54:17 -0500",
       "spinach_seed": "2024-10-18 20:04:51 -0500",
       "blackberry_seed": "2024-10-18 22:11:30 -0500",
       "corn_seed": "2024-10-18 20:12:11 -0500",
+      "turmeric_seed": "2024-11-08 22:56:15 -0500",
       "oat_seed": "2024-10-18 20:06:35 -0500",
       "mustard_seed": "2024-10-22 23:14:44 -0500"
     },
@@ -4548,6 +4555,7 @@
       "cabbage": "2024-10-23 11:29:26 -0500",
       "sugar_cane": "2024-10-28 21:55:34 -0500",
       "potato": "2024-10-28 20:16:44 -0500",
+      "nether_wart": "2024-11-08 17:58:16 -0500",
       "wheat": "2024-10-22 22:14:03 -0500",
       "carrot": "2024-10-22 22:16:21 -0500"
     },
@@ -7195,6 +7203,10 @@
   },
   "croptopia:gather_savanna": {
     "criteria": {
+      "leek_seed": "2024-11-08 22:54:50 -0500",
+      "squash_seed": "2024-11-08 22:54:17 -0500",
+      "ginger_seed": "2024-11-08 22:56:19 -0500",
+      "turmeric_seed": "2024-11-08 22:56:15 -0500",
       "olive_seed": "2024-10-28 22:38:27 -0500"
     },
     "done": false
@@ -7772,6 +7784,468 @@
   "minecraft:end/find_end_city": {
     "criteria": {
       "in_city": "2024-11-03 21:35:20 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/soap/map": {
+    "criteria": {
+      "has_filled_map": "2024-11-08 17:16:51 -0500"
+    },
+    "done": true
+  },
+  "fwaystones:recipes/pocket_wormhole": {
+    "criteria": {
+      "has_nether_star": "2024-11-08 17:53:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2024-11-08 17:53:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_iron": {
+    "criteria": {
+      "has_raw_iron_block": "2024-11-08 17:57:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2024-11-08 18:00:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper": {
+    "criteria": {
+      "has_copper_block": "2024-11-08 18:00:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
+    "criteria": {
+      "has_copper_block": "2024-11-08 18:00:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2024-11-08 18:00:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot": {
+    "criteria": {
+      "has_copper_block": "2024-11-08 18:00:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2024-11-08 18:00:20 -0500"
+    },
+    "done": true
+  },
+  "rpg_series:enchant_spell_infinity": {
+    "criteria": {
+      "enchant": "2024-11-08 22:28:00 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2024-11-08 22:43:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+    "criteria": {
+      "has_cut_sandstone": "2024-11-08 22:43:34 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/tomato_crate": {
+    "criteria": {
+      "has_tomato": "2024-11-08 22:48:06 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/tomato_sauce": {
+    "criteria": {
+      "has_tomato": "2024-11-08 22:48:06 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/tomato_seeds": {
+    "criteria": {
+      "has_tomato": "2024-11-08 22:48:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "desert_well": "2024-11-08 22:49:54 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2024-11-08 22:53:56 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/spaghetti_squash": {
+    "criteria": {
+      "has_squash": "2024-11-08 22:54:17 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_roasted_squash": {
+    "criteria": {
+      "has_squash": "2024-11-08 22:54:17 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_ratatouille": {
+    "criteria": {
+      "has_squash": "2024-11-08 22:54:17 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/squash_seed": {
+    "criteria": {
+      "has_squash": "2024-11-08 22:54:17 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/leek_soup": {
+    "criteria": {
+      "has_leek": "2024-11-08 22:54:49 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/leek_seed": {
+    "criteria": {
+      "has_leek": "2024-11-08 22:54:49 -0500"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/acacia": {
+    "criteria": {
+      "has_wood": "2024-11-08 22:55:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2024-11-08 22:55:12 -0500"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/building_blocks/acacia_palisade": {
+    "criteria": {
+      "has_log": "2024-11-08 22:55:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2024-11-08 22:55:12 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/turmeric_seed": {
+    "criteria": {
+      "has_turmeric": "2024-11-08 22:56:15 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/orange_dye": {
+    "criteria": {
+      "has_turmeric": "2024-11-08 22:56:15 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/ginger_seed": {
+    "criteria": {
+      "has_ginger": "2024-11-08 22:56:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_glazed_terracotta": {
+    "criteria": {
+      "has_blue_terracotta": "2024-11-08 23:00:31 -0500"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/cinnamon_wood": {
+    "criteria": {
+      "has_cinnamon_log": "2024-11-08 23:06:10 -0500"
+    },
+    "done": true
+  },
+  "croptopia:gather_tree_jungle": {
+    "criteria": {
+      "cinnamon_sapling": "2024-11-08 23:06:15 -0500"
+    },
+    "done": false
+  },
+  "croptopia:gather_tree_all": {
+    "criteria": {
+      "cinnamon_sapling": "2024-11-08 23:06:15 -0500"
+    },
+    "done": false
+  },
+  "croptopia:getsapling": {
+    "criteria": {
+      "has_sapling": "2024-11-08 23:06:15 -0500"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/deepslate_corner_trim": {
+    "criteria": {
+      "has_deepslate_corner_trim": "2024-11-09 14:38:03 -0500"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/deepslate_pillar_trim": {
+    "criteria": {
+      "has_deepslate_pillar_trim": "2024-11-09 14:38:03 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/deepslate_lamp": {
+    "criteria": {
+      "has_deepslate": "2024-11-09 14:38:03 -0500"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/spruce_cabinet": {
+    "criteria": {
+      "has_spruce_trapdoor": "2024-11-09 15:07:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_dark_oak_wood": {
+    "criteria": {
+      "has_log": "2024-11-09 15:27:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-11-09 15:27:34 -0500"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/building_blocks/dark_oak_beam": {
+    "criteria": {
+      "has_stripped_log": "2024-11-09 15:27:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-11-09 15:27:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2024-11-09 15:27:37 -0500"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/building_blocks/spruce_beam": {
+    "criteria": {
+      "has_stripped_log": "2024-11-09 15:27:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2024-11-09 15:38:16 -0500"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/building_blocks/birch_beam": {
+    "criteria": {
+      "has_stripped_log": "2024-11-09 15:46:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/birch_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-11-09 15:46:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_birch_wood": {
+    "criteria": {
+      "has_log": "2024-11-09 15:46:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-11-09 23:34:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-11-09 23:34:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-11-09 23:34:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-11-09 23:34:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-11-09 23:34:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-11-09 23:34:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-11-09 23:34:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-11-09 23:34:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-11-09 23:34:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-11-09 23:34:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-11-09 23:34:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-11-09 23:34:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-11-09 23:34:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-11-09 23:34:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_glass_pane": "2024-11-09 23:34:51 -0500"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sign_post_oak": {
+    "criteria": {
+      "has_oak_sign": "2024-11-10 00:06:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2024-11-10 00:09:22 -0500"
+    },
+    "done": true
+  },
+  "decorative_blocks:recipes/building_blocks/oak_beam": {
+    "criteria": {
+      "has_stripped_log": "2024-11-10 00:09:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2024-11-10 00:09:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2024-11-10 00:10:40 -0500"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/gray_cushion": {
+    "criteria": {
+      "has_gray_cushion": "2024-11-10 00:10:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2024-11-10 00:10:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2024-11-10 00:10:40 -0500"
+    },
+    "done": true
+  },
+  "comforts:hammock_gray": {
+    "criteria": {
+      "has_gray_wool": "2024-11-10 00:10:40 -0500"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_gray": {
+    "criteria": {
+      "has_gray_wool": "2024-11-10 00:10:40 -0500"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/gray_sheet": {
+    "criteria": {
+      "has_gray_sheet": "2024-11-10 00:10:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_pink_petals": {
+    "criteria": {
+      "has_pink_petals": "2024-11-10 00:19:46 -0500"
     },
     "done": true
   },
